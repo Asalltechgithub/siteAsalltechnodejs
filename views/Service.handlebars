@@ -1,0 +1,25 @@
+
+
+<a href="/adm//service/addservice"><button class="btn btn-primary btn-lg"> Adicionar Serviços</button></a>
+
+<table class="table table-striped">
+    <tr>
+    <th>nome</th>
+    <th>Ações</th>
+    </tr>
+<tbody>
+    {{#each service}}
+<tr>
+
+<td>
+{{name}}
+</td>
+<td><a href="{{id}}" class="btn btn-success">Editar</a>||<a href="{{id}}" class="btn btn-danger">Deletar</a> </td>
+</tr>
+{{else}}
+<td>
+Sem serviços Cadastrados
+</td>
+{{/each}}
+</tbody>
+</table>

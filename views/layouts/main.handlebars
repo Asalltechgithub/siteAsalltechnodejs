@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  
+        <title>As All Tech</title>
+        <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'>
+        <!-- Bootstrap CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+<style>
+#titlePortifolio{
+
+text-shadow: 3px 3px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+
+
+}
+
+</style>
+        
+    </head>
+    <body >
+        {{>__navbar}}
+       
+
+      
+     
+         {{>__jumbotron}}
+          
+ 
+       
+          
+       
+       
+       
+       
+        <div class="container" style="background-color: azure">
+        {{{body}}}
+        
+        
+        <div class="jumbotron" style="background-image: url(http://www.vizionsg.com/wp-content/uploads/2015/01/banner-img1.jpg);background-repeat: no-repeat; width: 100% ; height: 100%; " >
+            <div class="container">
+                
+               <h1 id="titlePortifolio" style="text-align: center">Portifólio</h1>
+                 {{>__carousel}}
+            </div>
+        </div>
+        
+        
+       
+        <div class="jumbotron">
+           
+        </div>
+        {{>__rating}}
+        </div>
+    
+    {{>__Contato}}
+   
+    {{>__SolicitaServir}}
+    
+     {{>_footer}}
+        <!-- jQuery -->
+      <script>
+  $('.carousel').carousel()
+</script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>
